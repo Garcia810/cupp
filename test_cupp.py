@@ -116,15 +116,15 @@ class TestCupp(unittest.TestCase):
             os.remove(expected_filename)
 
         user_input = [
-            "Julian",  # First Name
-            "Assange",  # Surname
-            "Mendax",  # Nickname
-            "03071971",  # Birthdate
+            "Jaosn",  # First Name
+            "Smith",  # Surname
+            "",  # Nickname
+            "",  # Birthdate
             "",  # Partner
             "",  # Partner nick
             "",  # Partner birthdate
-            "",  # Child name
-            "",  # Child nick
+            "hank",  # Child name
+            "lil",  # Child nick
             "",  # Child birthdate
             "",  # Pet's name
             "",  # Company name
